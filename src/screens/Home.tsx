@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <div className={styles.titleContainer}>
           <h1 className={styles.title}>Sua solução em</h1>
-          <h1 className={styles.title2}>Web Development.</h1>
+          <h1 className={styles.title2}>Desenvolvimento Web.</h1>
         </div>
         <div className={styles.subtitleContainer}>
           <h2 className={styles.subtitle}>Entre em</h2>
