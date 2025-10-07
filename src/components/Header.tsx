@@ -11,7 +11,7 @@ export default function Header() {
         onClick={() => setHideHeader(!hideHeader)}
         className={styles.logo}
       >
-        <div>
+        <div className={styles.navContainer}>
           <div className={styles.circleLarge}></div>
           <div className={styles.circleSmall}></div>
 

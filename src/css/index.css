@@ -4,5 +4,6 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   background-color: #212121;
-  color: #333;
+  color: #fff;
+  overflow-x: hidden; /* impede scroll horizontal */
 }
