@@ -1,0 +1,92 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  gap: 0;
+}
+.orbitText {
+  gap: 0.5rem;
+  font-size: 7rem;
+  color: #22daad;
+  font-weight: bolder;
+  margin-top: 5%;
+  margin-bottom: -10px;
+  margin-left: 100px;
+  padding-bottom: 0;
+}
+.title {
+  font-size: 3rem;
+  color: #ffffff;
+}
+.title2 {
+  font-size: 3rem;
+  color: #22daad;
+}
+.titleContainer {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 100px;
+}
+.subtitleContainer {
+  display: flex;
+  gap: 0.3rem;
+  margin-left: 100px;
+}
+.subtitle {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.contact {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #22daad;
+  align-self: center;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.circle {
+  position: absolute;
+  top: 20%;
+  right: 100px;
+  width: 300px;
+  height: 300px;
+  background-color: #22daad;
+  border-radius: 50%;
+}
+
+.orbit {
+  position: absolute;
+  top: 40%;
+  right: 100px;
+  width: 400px;
+  height: 400px;
+  transform-origin: center;
+  animation: rotate 8s linear infinite;
+}
+
+.circle2 {
+  width: 75px;
+  height: 75px;
+  background-color: #22daad;
+  border-radius: 50%;
+  opacity: 0.5;
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

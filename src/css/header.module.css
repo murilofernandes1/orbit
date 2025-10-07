@@ -1,0 +1,41 @@
+.logo {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.logo:focus {
+  outline: none;
+}
+
+.logo:hover .circleLarge {
+  background-color: #32f5c0;
+}
+.logo:hover .circleSmall {
+  background-color: #238b73;
+}
+
+.circleLarge {
+  width: 70px;
+  height: 70px;
+  background-color: #22daad;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.circleSmall {
+  width: 20px;
+  height: 20px;
+  background-color: #1f6e5b;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 35px;
+}

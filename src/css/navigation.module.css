@@ -1,0 +1,52 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+.nav {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  color: #22daad;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav:hover {
+  color: #1f6e5b;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.fadeOut {
+  animation: fadeOut 0.5s ease forwards;
+}

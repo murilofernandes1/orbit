@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 200px;
+  opacity: 0.7;
+}
+.orbit {
+  font-style: italic;
+  color: #22daad;
+  font-weight: 400;
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+.reserved {
+  font-style: italic;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
