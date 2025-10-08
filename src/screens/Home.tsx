@@ -7,20 +7,25 @@ export default function Home() {
     <>
       <Header />
       <div className={styles.container}>
-        <h1 className={styles.orbitText}>ORBIT</h1>
-        <div className={styles.circle}></div>
-
-        <div className={styles.orbit}>
-          <div className={styles.circle2}></div>
+        <div className={styles.circlesLayer}>
+          <div className={styles.circle}></div>
+          <div className={styles.orbit}>
+            <div className={styles.circle2}></div>
+          </div>
         </div>
-        <div className={styles.titleContainer}>
-          <h1 className={styles.title}>
-            Sua solução em{" "}
-            <span className={styles.highlight}>Desenvolvimento Web.</span>
-          </h1>
-          <h1 className={styles.title2}></h1>
+
+        <div className={styles.textLayer}>
+          <h1 className={styles.orbitText}>ORBIT</h1>
+          <div className={styles.titleContainer}>
+            <h1 className={styles.title}>
+              Sua solução em{" "}
+              <span className={styles.highlight}>Desenvolvimento Web.</span>
+            </h1>
+            <h1 className={styles.title2}></h1>
+          </div>
         </div>
       </div>
+
       <Content />
       <Footer />
     </>

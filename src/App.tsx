@@ -1,5 +1,6 @@
 import Contact from "./screens/Contact";
 import Home from "./screens/Home";
+import "./css/app.module.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

@@ -3,11 +3,12 @@ import { useState, useEffect } from "react";
 
 export default function Content() {
   const dynamic = [
-    "Portfólios",
     "Empresas",
+    "Indústrias",
     "Comércios",
+    "Varejos",
+    "Portfólios",
     "Blogs",
-    "Transportadoras",
   ];
   const [textIndex, setTextIndex] = useState(0);
 

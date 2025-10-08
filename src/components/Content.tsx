@@ -27,11 +27,11 @@ export default function Content() {
         </div>
         <div className={styles.subtitleContainer}>
           <h1 className={styles.subtitle}>
-            Entre em{" "}
+            Clique{" "}
             <Link to="contact" className={styles.highlight}>
-              contato {""}
+              aqui {""}
             </Link>
-            agora e solicite seu orçamento sem compromisso!
+            para entrar em contato e solicitar seu orçamento sem compromisso!
           </h1>
         </div>
       </div>
