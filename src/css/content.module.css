@@ -16,7 +16,9 @@
   align-items: flex-start;
   text-align: left;
 }
-
+h1 {
+  font-size: 1.9rem;
+}
 .heading {
   font-size: 2rem;
   font-weight: bold;
