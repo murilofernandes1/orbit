@@ -1,17 +1,15 @@
 import styles from "../css/contact.module.css";
 import Header from "../components/Header";
+import Orbit from "../components/Orbit";
 
 export default function Contact() {
   return (
     <>
+      <Orbit />
       <Header />
       <div className={styles.container}>
         <form className={styles.form}>
-          <h1>O que você tem em mente?</h1>
-          <h2 className={styles.message}>
-            Preencha o formulário abaixo e nosso time entrará em contato o mais
-            rápido possível!
-          </h2>
+          <h1>Vamos conversar?</h1>
           <h2>Seu nome</h2>
           <input
             className={styles.input}

@@ -1,56 +1,67 @@
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+  overflow-y: hidden;
 }
-h2 {
+h1 {
   align-self: flex-start;
+  font-size: 3rem;
   font-weight: 700;
 }
 .message {
   font-size: 1.2rem;
   opacity: 0.9;
+  align-self: flex-start;
 }
 .form {
-  align-items: center;
-  background-color: #22daad;
-  color: #212121;
+  position: relative;
+  width: 40%;
+  color: #22daad;
   display: flex;
   flex-direction: column;
   padding: 40px;
   border-radius: 30px;
+  z-index: 1;
 }
 .input {
-  width: 100%;
+  width: 70%;
   padding: 10px;
+
   border: none;
   border-radius: 5px;
   font-family: "Inter", sans-serif;
+  align-self: flex-start;
 }
 .inputMessage {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  width: 100%;
+  width: 70%;
   height: 100px;
   font-family: "Inter", sans-serif;
   resize: none;
+  align-self: flex-start;
 }
 .button {
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #212121;
-  color: #fff;
+  background-color: #22daad;
+  color: #212121;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   cursor: pointer;
+  width: 40%;
+  margin-left: 100px;
 }
 .button:hover {
-  background-color: #333;
+  background-color: #1f6e5b;
   color: #ffffff;
   transition: 0.3s;
 }

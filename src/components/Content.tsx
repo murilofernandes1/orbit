@@ -1,5 +1,5 @@
 import styles from "../css/content.module.css";
-import DynamicText from "../hooks/DynamicText";
+
 import { Link } from "react-router-dom";
 export default function Content() {
   return (
@@ -21,9 +21,6 @@ export default function Content() {
             {" "}
             <span className={styles.highlight}>Precisou?</span> A gente entrega!{" "}
           </h1>
-        </div>
-        <div className={styles.component}>
-          <DynamicText />
         </div>
         <div className={styles.subtitleContainer}>
           <h1 className={styles.subtitle}>

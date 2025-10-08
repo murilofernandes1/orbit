@@ -25,14 +25,6 @@
   margin: 0;
 }
 
-.component {
-  position: absolute;
-  top: 270px;
-  left: 443px;
-  transform: translateY(-50%);
-  font-size: 1.5rem;
-  color: #22daad;
-}
 .highlight {
   color: #22daad;
   text-decoration: none;

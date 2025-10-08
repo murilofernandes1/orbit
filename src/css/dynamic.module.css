@@ -1,5 +1,9 @@
 .dynamic {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #22daad;
   margin: 0;
+}
+.reverseHighlight {
+  color: #ffffff;
+  text-decoration: none;
 }

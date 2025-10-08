@@ -5,10 +5,12 @@ export default function Content() {
   const dynamic = [
     "Empresas",
     "Indústrias",
+    "Transportadoras",
     "Comércios",
     "Varejos",
     "Portfólios",
     "Blogs",
+    "E-Commerces",
   ];
   const [textIndex, setTextIndex] = useState(0);
 
@@ -20,7 +22,10 @@ export default function Content() {
   }, []);
   return (
     <div className={styles.container}>
-      <h1 className={styles.dynamic}>Trabalhamos com {dynamic[textIndex]}</h1>
+      <h1 className={styles.dynamic}>
+        <span className={styles.reverseHighlight}>Trabalhamos com {""}</span>{" "}
+        {dynamic[textIndex]}
+      </h1>
     </div>
   );
 }
