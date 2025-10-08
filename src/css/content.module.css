@@ -40,3 +40,59 @@ h1 {
   font-weight: 700;
   text-decoration: none;
 }
+@media (max-width: 1024px) {
+  .container {
+    padding: 1.5rem;
+    margin-left: 50px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .contact {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+    margin-left: 30px;
+  }
+
+  h1 {
+    font-size: 0.9rem;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .contact {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.8rem;
+    margin-left: 15px;
+  }
+
+  h1 {
+    font-size: 0.9rem;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .contact {
+    font-size: 1rem;
+  }
+}

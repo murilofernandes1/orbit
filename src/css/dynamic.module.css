@@ -7,3 +7,20 @@
   color: #ffffff;
   text-decoration: none;
 }
+@media (max-width: 1024px) {
+  .dynamic {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .dynamic {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dynamic {
+    font-size: 1.4rem;
+  }
+}

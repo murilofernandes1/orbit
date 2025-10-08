@@ -60,3 +60,47 @@
 .fadeOut {
   animation: fadeOut 0.5s ease forwards;
 }
+@media (max-width: 1024px) {
+  .container {
+    width: 200px;
+    gap: 25px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 35px;
+  }
+
+  .nav {
+    font-size: 1rem;
+    padding: 4px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 180px;
+    gap: 20px;
+    padding: 12px;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+
+  .nav {
+    font-size: 0.95rem;
+    padding: 3px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 150px;
+    gap: 15px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+
+  .nav {
+    font-size: 0.9rem;
+    padding: 2px 12px;
+  }
+}

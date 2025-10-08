@@ -2,8 +2,10 @@
   position: absolute;
   top: 50%;
   left: 100%;
-  width: 1000px;
-  height: 1000px;
+  width: 50vw;
+  height: 50vw;
+  max-width: 1000px;
+  max-height: 1000px;
   background-color: #22daad;
   border-radius: 50%;
   transform: translate(-50%, -50%);
@@ -14,8 +16,10 @@
   position: absolute;
   top: 50%;
   left: 100%;
-  width: 1000px;
-  height: 1000px;
+  width: 50vw;
+  height: 50vw;
+  max-width: 1000px;
+  max-height: 1000px;
   transform: translate(-50%, -50%);
   animation: rotate 15s linear infinite;
 }
@@ -24,13 +28,16 @@
   position: absolute;
   top: 0;
   left: 125%;
-  width: 300px;
-  height: 300px;
+  width: 15vw;
+  height: 15vw;
+  max-width: 300px;
+  max-height: 300px;
   background-color: #238b73;
   border-radius: 50%;
   z-index: -1;
   transform: translateX(-50%);
 }
+
 .circlesLayer {
   position: fixed;
   top: 0;
@@ -47,5 +54,46 @@
   }
   to {
     transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@media (max-width: 1024px) {
+  .circle,
+  .orbit {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .circle2 {
+    width: 12vw;
+    height: 12vw;
+    left: 120%;
+  }
+}
+
+@media (max-width: 768px) {
+  .circle,
+  .orbit {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .circle2 {
+    width: 10vw;
+    height: 10vw;
+    left: 115%;
+  }
+}
+
+@media (max-width: 480px) {
+  .circle,
+  .orbit {
+    width: 150vw;
+    height: 150vw;
+  }
+
+  .circle2 {
+    width: 22vw;
+    height: 22vw;
+    left: 100%;
   }
 }
