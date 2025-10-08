@@ -12,11 +12,12 @@ h1 {
   font-size: 3rem;
   font-weight: 700;
 }
-.message {
-  font-size: 1.2rem;
-  opacity: 0.9;
+h2 {
   align-self: flex-start;
+
+  font-weight: 700;
 }
+
 .form {
   position: relative;
   width: 40%;
@@ -26,11 +27,11 @@ h1 {
   padding: 40px;
   border-radius: 30px;
   z-index: 1;
+  margin-left: 100px;
 }
 .input {
   width: 70%;
   padding: 10px;
-
   border: none;
   border-radius: 5px;
   font-family: "Inter", sans-serif;
@@ -62,6 +63,6 @@ h1 {
 }
 .button:hover {
   background-color: #1f6e5b;
-  color: #ffffff;
+  color: #212121;
   transition: 0.3s;
 }
